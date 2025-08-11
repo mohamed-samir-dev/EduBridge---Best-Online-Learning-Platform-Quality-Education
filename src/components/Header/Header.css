@@ -1,0 +1,71 @@
+/* ================================
+   Header Section Styles
+   ================================ */
+
+/* Main header background color */
+#header {
+    background-color: var(--dark-blue);
+}
+
+/* Navbar container: flex layout for logo, menu, and account buttons */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: 100px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--sky-blue);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a {
+    margin: 0 10px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: var(--sky-blue);
+}
+
+.navbar .account .btn-secondary {
+    background-color: var(--sky-blue);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .account .btn-secondary:hover {
+    background-color: var(--sky-blue-hover, #4db8ff);
+}
+
+.navbar .account .btn-secondary svg {
+    margin-left: 5px;
+    font-size: 12px;
+    vertical-align: middle;
+}
