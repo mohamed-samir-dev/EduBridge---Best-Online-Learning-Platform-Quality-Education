@@ -1,10 +1,12 @@
-import React from "react";
-import { FaArrowRight } from "react-icons/fa";
+import React, { useState } from "react";
+import { FaArrowRight, FaBars, FaTimes } from "react-icons/fa";
 import "./Header.css";
-/**
- * Header Component
- */
+
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+  
   return (
     <header id="header">
       <nav className="navbar">
@@ -12,7 +14,10 @@ export default function Header() {
           {/* cspell:disable-next-line */}
           Edubridge
         </a>
-        <ul className="nav-links">
+        <button className="menu-toggle" onClick={toggleMenu} aria-label="Toggle menu">
+          {menuOpen ? <FaTimes /> : <FaBars />}
+        </button>
+        <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
           <li>
             <a href="#">Home</a>
           </li>
