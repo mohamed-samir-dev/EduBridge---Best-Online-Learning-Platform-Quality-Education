@@ -115,3 +115,155 @@
 .crd:hover span {
     width: 80px;
 }
+
+/* ================================
+   Media Queries
+   ================================ */
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+    
+    .crd-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Desktop */
+@media (max-width: 1024px) {
+    .home-header h1 {
+        font-size: 36px;
+    }
+    
+    .home-header p {
+        font-size: 1.2rem;
+    }
+    
+    .crd-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    #home {
+        padding: 4rem 0;
+    }
+    
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .home-header {
+        max-width: 100%;
+    }
+    
+    .home-header h1 {
+        font-size: 32px;
+        margin: 15px 0;
+    }
+    
+    .home-header p {
+        font-size: 1.1rem;
+        margin-bottom: 25px;
+    }
+    
+    .home-header .btn {
+        padding: 12px 25px;
+        font-size: 14px;
+        margin: 5px;
+        display: inline-block;
+    }
+    
+    .crd-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        margin-top: 2.5rem;
+    }
+    
+    .crd {
+        padding: 1.5rem;
+    }
+}
+
+/* Mobile Large */
+@media (max-width: 480px) {
+    #home {
+        padding: 3rem 0;
+    }
+    
+    .container {
+        padding: 0 0.5rem;
+    }
+    
+    .home-header h1 {
+        font-size: 28px;
+    }
+    
+    .home-header p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    
+    .home-header .btn {
+        padding: 10px 20px;
+        font-size: 12px;
+        margin: 3px;
+        display: block;
+        width: 200px;
+        margin: 5px auto;
+    }
+    
+    .crd-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .crd {
+        padding: 1.25rem;
+    }
+    
+    .crd-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.25rem;
+    }
+}
+
+/* Mobile Small */
+@media (max-width: 360px) {
+    .home-header {
+        max-width: 320px;
+    }
+    
+    .home-header h1 {
+        font-size: 24px;
+    }
+    
+    .home-header p {
+        font-size: 0.9rem;
+    }
+    
+    .home-header .btn {
+        width: 180px;
+        padding: 8px 15px;
+    }
+    
+    .crd {
+        padding: 1rem;
+    }
+    
+    .crd h3 {
+        font-size: 1.1rem;
+    }
+    
+    .crd p {
+        font-size: 0.9rem;
+    }
+}
