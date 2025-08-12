@@ -1,7 +1,7 @@
 # ⚡ EduBridge - React + Vite
 
 <div align="center">
-  <img src="screencapture-localhost-5175-2025-08-11-22_30_12.webp" alt="EduBridge Application" width="800" />
+  <img src="./public/screencapture-localhost-5175-2025-08-11-22_30_12.webp" alt="EduBridge Application" width="800" />
 </div>
 
 <div align="center">
@@ -42,6 +42,7 @@ Choose your preferred Fast Refresh implementation:
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - npm or yarn package manager
 
@@ -66,7 +67,9 @@ npm run preview
 ```
 
 ### 🌐 Development Server
+
 Once started, your application will be available at:
+
 - **Local**: http://localhost:5173
 - **Network**: Use the network URL shown in terminal for mobile testing
 
@@ -109,5 +112,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   <p><strong>EduBridge</strong> - Bridging Education with Technology</p>
   <p>Built with ❤️ using React and Vite</p>
-  <p>© 2025 EduBridge. All rights reserved.</p>
+  <p>© 2025 EduBridge. All rights reserved by  <a
+              href="https://my-frontend-portfolio-sage.vercel.app/"
+              target="_blank"
+            >
+              My Frontend Portfolio
+            </a></p>
 </div>
