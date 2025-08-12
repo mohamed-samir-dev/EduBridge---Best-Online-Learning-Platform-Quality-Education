@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHeader from "../SectionHeader/SectionHeader";
-import { testimonialsData } from "../data/data";
+import { testimonialsData } from "../data/data.jsx";
 import "./Reviews.css";
 
 export default function Reviews() {

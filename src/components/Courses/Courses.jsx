@@ -1,6 +1,8 @@
 import React from "react";
 import SectionHeader from "../SectionHeader/SectionHeader";
-import { coursesData } from "../data/data";
+import { coursesData } from "../data/data.jsx";
+import "./Courses.css";
+
 // Icons
 import { FaStar, FaChevronRight } from "react-icons/fa";
 import { CiAlarmOn } from "react-icons/ci";

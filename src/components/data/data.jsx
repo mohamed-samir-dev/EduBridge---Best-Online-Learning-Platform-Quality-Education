@@ -31,7 +31,7 @@ export const cardData = [
 export const coursesData = [
   {
     id: 1,
-    img: "./public/set-colour-pencils-wooden-surface.webp",
+    img: "/set-colour-pencils-wooden-surface.webp",
     department: "Art & Design",
     title: "UI & UX Design",
     rating: "4.5",
@@ -44,7 +44,7 @@ export const coursesData = [
   },
   {
     id: 2,
-    img: "./public/abstract-special-effect-captured.webp",
+    img: "/abstract-special-effect-captured.webp",
     department: "Software Development",
     title: "Project Design",
     rating: "4.6",
@@ -57,7 +57,7 @@ export const coursesData = [
   },
   {
     id: 3,
-    img: "./public/portrait-young-entrepreneur-working-from-home.webp",
+    img: "/portrait-young-entrepreneur-working-from-home.webp",
     department: "Web Development",
     title: "Html & Css",
     rating: "4.7",
@@ -74,7 +74,7 @@ export const testimonialsData = [
     id: 1,
     description:
       "This platform has transformed the way I learn. The courses are well-structured and the instructors are top-notch.",
-    img: "./public/young-bearded-man-with-striped-shirt.webp",
+    img: "/young-bearded-man-with-striped-shirt.webp",
     name: "Mohammed Ali",
     title: "CEO, ABC Company",
     star: "⭐⭐⭐⭐",
@@ -83,7 +83,7 @@ export const testimonialsData = [
     id: 2,
     description:
       "I was able to learn new skills and advance my career with the help of this platform. It's a game-changer!",
-    img: "./public/bohemian-man-with-his-arms-crossed.webp",
+    img: "/bohemian-man-with-his-arms-crossed.webp",
     name: "Sarah Johnson",
     title: "Marketing Manager, XYZ Company",
     star: "⭐⭐⭐",
@@ -92,7 +92,7 @@ export const testimonialsData = [
     id: 3,
     description:
       "I've always struggled with understanding complex concepts. Now, I can easily learn and apply them. Thank you for your help!",
-    img: "./public/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer.webp",
+    img: "/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer.webp",
     name: "David Smith",
     title: "Software Developer, ABC Company",
     star: "⭐⭐⭐⭐⭐",
